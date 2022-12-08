@@ -1,0 +1,715 @@
+  /*
+filename: style.css 
+author: Ishaan
+created: 20 March 2021
+last modified: 24/0/2021
+description: Website TV Purchase(Assignment 2)
+*/
+
+
+ body{ background-image:url("images/bgshade.jpeg");
+       padding:0;
+	   margin:0;
+	   background-size: cover;}
+ nav a{ 
+           padding: 0.2em 0.6em;
+		   border: 2px groove honeydew ;		   
+		   text-align: right;
+            width: 90px;
+                     height: 60px;
+					 border-radius: 4px;
+					 background-color:lightsalmon ;
+					 outline:none;
+			         border: none;
+					 color: white;
+					 font-size: 1.5rem;
+					 text-decoration:none;
+					
+		  
+		   
+		}
+ header {background-color: slategrey;
+       }
+ .menu { background-color: slategrey;
+                 text-align: center;
+     
+ }
+
+ nav a:hover {
+               border-color: white;
+			    cursor: pointer;
+                background-color: palevioletred;
+               transition: all 0.4s ease-out;
+			   
+   }  
+   
+  .logo { width: 180px;
+          cursor: pointer;
+		  height: 150px;
+		  padding-left:4%;
+		 
+  }
+   nav ul li { list-style: none;
+               display: inline-block;
+			   margin: 0 20px;
+			   background-color: slategrey;
+			   
+   }
+   .h1 { text-align: center;
+         color: white;
+		 text-shadow: 5px 3px black;
+		 background-color: slategrey;
+		 font:4rem Arial, sans-serif ;
+          height: 40px;
+		    }
+	h1 {
+		color: black;
+		text-shadow: 3px 2px darkgrey;
+	}
+   .stock { color:green;
+            margin:20px;
+   text-align:center;}
+   
+   .mrp { text-decoration: line-through;
+          color: red;
+   }
+   
+ 
+   em { color: darkgreen;
+   }
+   
+                         /*table styling*/
+   
+   table,th , td {border: 2px solid #4B0082;
+                   text-align: center;
+				   margin-left:auto;
+				   margin-right:auto;
+				   border-collapse: collapse;
+				   width: 80%;
+				   background-color: #F0E68C;
+				   table-layout: fixed;
+				   padding: 15px;
+   }
+   
+  
+ .spec {
+		   border: 4px groove honeydew ;
+		   color: darkcyan;
+		   margin:40px;
+		    background-color: moccasin;
+		   }
+		   
+  .specifications{ background-color: moccasin;
+                   margin: 10px;			   
+                   
+		   }
+		   
+	                 /*enquiry form styling*/	   
+		   
+ #enquiry { display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+
+ 
+ } 
+ .head { text-align: center;
+
+ }
+ 
+ h1 { text-align: center;
+ }
+ aside {
+  width: 25%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightblue;
+}
+
+
+                    /*My pic styling (About)*/
+ 
+ .ishaan { float: right;
+		 border-radius:70%;
+		  border: 0.5rem solid black;
+          padding: 20px;
+         background-color: slateblue;
+		 border-style: double;
+		  
+   }
+   
+                  /*defination list styling*/
+   
+   dl {
+        display: block;
+        margin-top: 2em;
+        margin-left: 2em;
+        
+}
+   dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+  
+  dt {
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: green;
+  }
+  
+  article  {
+  margin: 10px;
+  padding: 5px;
+  }
+  
+ #a1 {  width: 45%;
+  padding-left: 15px;
+  margin-left: 25px;
+  float: right;
+  font-style: italic;
+  background-color: pink;
+ }
+ 
+ #a {  width: 45%;
+   padding-right: 15px;
+  margin-right: 25px;
+  float: left;
+  font-style: italic;
+  background-color: lightblue;
+ }
+ 
+  .tut, .live1{ background-color: #FFFF00  }
+  
+  .live2, .lab{background-color: #add8e6 }
+  .live3, .prac{background-color: #90EE90}
+  .live4, .lab1{background-color: #00FFFF  }
+  
+  th { background-color: #d8bfd8;
+       color: #D2691E;
+  }
+  .t1 td:nth-child(1) {background-color:#98FB98 ;
+                       color:#D2691E ;
+  }
+  
+ 
+                        /*footer styling*/
+  
+ .footer-container { background-color: darkslategray;
+                     padding:2rem 0 0 0;
+					 
+ }
+ 
+ .footer{ width: 80%;
+          height: 40vh;
+		  background-color: darkslategray;
+		 color: coral;
+		  display: flex;
+		  justify-content: center;
+		  flex-wrap: wrap;
+		  margin: 0 auto;
+	
+ }
+ 
+ .footer-heading { display:flex;
+                   flex-direction: column;
+				   margin-right: 4rem;
+				   background-color: darkslategray;
+				   
+ }
+ 
+ .footer-heading h2 {  
+                       background-color: darkslategray;
+ }
+ .footer-heading a { color:palevioletred ;
+                    text-decoration: none;
+					margin-bottom: 0.5rem;
+					background-color: darkslategray;
+ }
+ 
+ .footer-heading a:hover { color: red;
+                           transition: 0.3s ease-out;
+ }
+ 
+.footer-email-form h2 { margin-bottom: 2rem;
+                        background-color: darkslategray;
+}
+#footer-email{ width: 250px;
+               height: 40px;
+			   border-radius: 4px;
+			   outline:none;
+			   border: ridge;
+			   padding-left: 0.5rem;
+			   font-size: 1rem;
+			   margin-bottom: 1rem;
+			  
+}
+
+ #footer-email::placeholder{ color: gray;
+ }
+ #footer-email-btn { width: 100px;
+                     height: 40px;
+					 border-radius: 4px;
+					 background-color: #f94230;
+					 outline:none;
+			         border: none;
+					 color: yellow;
+					 font-size: 1rem;
+ }
+ #footer-email-btn:hover { cursor: pointer;
+                          background-color: #337AF1;
+                          transition: all 0.4s ease-out;
+
+ }						  
+ 
+ .footer-email-form { margin-top: 2rem;
+                     background-color: darkslategray;
+                     
+ }
+ .submit{ width: 170px;
+                     height: 50px;
+					 border-radius: 4px;
+					 background-color:#B22222 ;
+					 outline:none;
+			         border: none;
+					 color: white;
+					 font-size: 2rem;
+					 margin: 50px;
+					
+ }
+ .submit:hover { cursor: pointer;
+                          background-color: #337AF1;
+                          transition: all 0.4s ease-out;
+ }
+                  
+
+				  /*enquiry details color styling*/
+				  
+				  
+				  
+ .name{ background-color: #FFF5EE;
+ }
+ .address{ background-color: #FAF0E6;
+ }
+ 
+ .contact{ background-color: #FFF5EE;
+ }
+ .product{ background-color: #FAF0E6;
+ }
+ #mark {
+   background-color:yellow;
+   font-weight: normal;
+   font-style: normal;
+   color: red;
+ }
+ 
+ 
+                  /*icons on footer styling*/
+ 
+ .icon-bar {
+  position: fixed;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+                 /* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+  
+}
+
+            /* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: salmon;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+  
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+                       
+					   /*slider styling at home page*/
+					   
+					   
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides-container {
+  height: 500px;
+  transition: 900ms cubic-bezier(0.48, 0.15, 0.18, 1);
+  position: relative;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.slide-image img {
+  padding-left: 25%;
+  width: 50%;
+  height: 100%;
+  
+}
+
+.next-btn,
+.prev-btn {
+  background: #eee;
+  padding: 16px;
+  position: absolute;
+  top: 80%;
+  font-size: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  cursor: pointer;
+  transition: 400ms;
+}
+.next-btn{
+	margin-left:5%;
+}
+.next-btn:hover,
+.prev-btn:hover {
+  background: #48f9ff;
+}
+
+.prev-btn {
+  left: 0;
+}
+
+.next-btn {
+  right: 0;
+}
+
+/* Navigation Dots */
+
+.navigation-dots {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.single-dot {
+  background: #333;
+  height: 16px;
+  width: 16px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.single-dot.active {
+  background: #eee;
+}
+
+
+
+               /*card styling at home page*/
+			   
+	.checked {
+  color: orange;
+}		   
+.card{
+		width: 90%;
+		padding: 20px;
+		margin: 100px auto;	 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		
+	}
+	
+
+	.box{
+		width: 250px;
+		margin: 0 10px;
+		box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+		transition: 1s;
+        background-color: antiquewhite;
+	}
+	.box img{
+		display: block;
+		width:100%;
+		border-radius: 5px;
+	}
+	.box:hover{
+		transform: scale(1.3);
+		z-index: 2;
+		background-color:pink;
+		cursor:pointer;
+	}
+	
+	.enhancement {  color: white;
+            		text-align:center;
+	               text-shadow: 2px 1.5px black;
+	
+	}
+	
+	form{ padding: 95px;}
+	
+	#price { padding:65px;}
+	
+	.desptn{ padding:65px;}
+	
+	.tv1home { float:right; }
+	
+	.tvphoto{ margin-left: 20%;
+	          }
+	
+	.tv5 { margin-left: 885px;}
+	.tv6 { margin-left: 85px;}
+	
+	
+    .middle { text-align: center;}
+	
+	
+
+.infolink {color: darkblue;}
+.infolink:hover { color: yellow;}
+
+.modelpics {
+		width: 90%;
+		padding-left: 0px;
+		margin: 50px auto;	 
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		
+	}
+	.piccaption {
+		text-align: center;
+		padding:2px;
+	}
+	
+	   /*   ENQUIRY STYLING  */
+	
+	.enqcard{
+		width: 90%;
+		padding: 20px;
+		margin-left: 100px ;	
+       margin-right: 100px ;		
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		
+	}
+	
+
+	.enqbox{
+		width: 250px;
+		margin: 0 10px;
+		box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+		transition: 1s;
+        background-color: white;
+	}
+	.enqbox img{
+		display: block;
+		width:100%;
+		border-radius: 5px;
+	}
+	.enqbox:hover{
+		transform: scale(1.05);
+		z-index: 2;
+		cursor:pointer;
+	}
+	.enqradio {  display: inline-block;
+  vertical-align: bottom;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 4.6rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: gray;}
+
+
+  /*   Credit Card  and PAYMENT styling  */
+  
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.creditcontainer {
+  background-color: #f2f2f2;
+  padding: 5px 15px 15px 15px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.payinput[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.paylabel {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.paybtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.paybtn:hover {
+  background-color: limegreen;
+}
+
+.cancelbtn {
+  background-color: tomato;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.cancelbtn:hover {
+background-color: red;}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.acceptedcards{ margin-right:3%;}
+.acceptedcards1{ margin-right:1%;}
+
+.error{
+	color: #990000;
+	margin-left:50px;
+	
+	
+}	
+
+.star { color: red;}
+
+.prefcont{ margin-left: 20px;}
+
+
+.congo{
+	text-align:center;
+	color:tomato;
+}
+
+ .hidden1 {
+	 font-size: 25px;
+	 color: midnightblue;
+	 margin-left: 3.4%;
+	 
+ }
+ .stordet {
+	 color : green;
+	 font-size: 20px;
+ }
+
+.featurepara {
+	text-align:center;
+	font-size: 17px;
+} 
+
+.align-center{
+	text-align: center;
+}
+
+.receipt {
+  background-color:white;
+  font-size: 1.5rem;
+}
+#receipt {
+  border: 5px solid;
+  text-align: center;
+	 margin-left:auto;
+	 margin-right:auto;
+	 border-collapse: collapse;
+	 width: 50%;
+	 table-layout: fixed;
+	 padding: 5px;
+  color: black;
+}
+
+.manager {
+  font-size: 1.3rem;
+ 
+}
+
+.orderz {
+  
+      text-align: center;
+			margin-left:0%;
+				 
+		 border-collapse: collapse;
+		 width: 0%;
+		 background-color: #F0E68C;
+		 table-layout: fixed;
+		 padding: 0%;
+}
+
